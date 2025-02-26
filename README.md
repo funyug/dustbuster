@@ -6,7 +6,7 @@ A Cli Tool to collect and spend dust utxos from a bitcoin wallet
 - Identify dust UTXOs by addresses that are below the min relay fee
 - Spends UTXOs to empty OP_RETURN output
 
-## 🛠️ Building from Source
+## Building from Source
 
 1. Clone the repository:
 ```bash
