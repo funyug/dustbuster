@@ -1,6 +1,6 @@
 # Dustbuster
 
-A Cli Tool to collect and spend dust utxos from a bitcoin wallet
+A CLI tool to collect and spend dust utxos from a bitcoin wallet
 ##  Features
 
 - Identify dust UTXOs by addresses that are below the min relay fee
