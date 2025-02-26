@@ -1,0 +1,18 @@
+[package]
+name = "dustbuster"
+version = "0.1.0"
+edition = "2021"
+description = "Cli tool to remove dust utxos from a bitcoin wallet"
+license = "MIT"
+repository = "https://github.com/funyug/dustbuster"
+homepage = "https://github.com/funyug/dustbuster"
+readme = "README.md"
+keywords = ["bitcoin", "utxo", "dust"]
+categories = ["command-line-utilities"]
+authors = ["Shivam Chawla"]
+
+[dependencies]
+base64 = "0.22.1"
+bitcoin = "0.32.5"
+bitcoind = "0.36.1"
+clap = { version = "4.5.29", features = ["derive"] }
